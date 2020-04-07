@@ -14,7 +14,6 @@ class DarkMode {
         let currentTheme = document.querySelector('input[name=mode]');
 
         if (currentTheme.checked) {
-            console.log(currentTheme);
             this.trans();
             document.documentElement.setAttribute('data-theme', 'darkTheme')
             localStorage.setItem('theme', 'darkTheme');
